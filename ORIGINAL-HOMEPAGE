@@ -2,7 +2,7 @@ Technical Notes
 
 Tested on Liferay 6.1.0 GA1.
 
-  Roadmap
+Roadmap
 Version 1.0 Alpha 1 - February 3, 2012. Initial release of source code
 
 Version 1.0.x - May/June 2012. Official release of version 1.0
@@ -18,9 +18,13 @@ When paired with a Google Apps domain and SAML single sign-on, this portlet is e
 When used with a regular, consumer Google account, the portlet will have to use three-legged OAuth, requiring user interaction the first time.  This is not an option in the current version of the portlet.
 
 
+![alt text](https://github.com/cfont/Google-Docs-Portlet/raw/master/gnenc-google-docs-portlet.png "Google Docs Portlet Screenshot")
+
 
 By default, the first 100 documents are loading into the portlet and paginated.  Each document displays an icon in the first column to easily denote what type it is.  In the future, this column will also display a tooltip with more information about the document - owner, created time, who it is shared with, etc.  The right column features an actions menu that will allow users to export/download, delete, organize or share the document.  Columns will be sortable - by default the documents are displayed in descending order by last time modified.
 
 Users can easily create a new document, spreadsheet, presentation, or drawing by entering a title and choosing a document type.  Users may also search for a document.  There will be a dropdown or other mechanism to allow users to choose the type of search - title or full text.
 
 In the end, users will also be able to organize their documents into folders/categories.  
+
+ORIGINAL HOMEPAGE URL --> http://portal.gnenc.org/google-docs-portlet
